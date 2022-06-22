@@ -1,0 +1,19 @@
+.cf-sponsors__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-sponsors__list {
+    justify-content: center;
+  }
+}
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-sponsors__list {
+    justify-content: flex-start;
+  }
+}

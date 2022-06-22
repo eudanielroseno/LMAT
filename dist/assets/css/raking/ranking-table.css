@@ -1,0 +1,19 @@
+.cf-ranking-table {
+  margin-bottom: 3.5rem;
+}
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-ranking-table {
+    width: 100%;
+  }
+}
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-ranking-table {
+    width: 36.875rem;
+    margin: 0 auto 3.5rem auto;
+  }
+}

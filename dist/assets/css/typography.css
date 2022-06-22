@@ -1,0 +1,18 @@
+.cf-title {
+  font-size: 1.125rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.cf-subtitle {
+  color: #606060;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.cf-uppercase {
+  text-transform: uppercase;
+}

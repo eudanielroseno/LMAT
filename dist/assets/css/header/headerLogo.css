@@ -1,0 +1,29 @@
+.cf-header-logo {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cf-header-logo:hover {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-header-logo {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-header-logo {
+    margin-bottom: 0;
+  }
+}

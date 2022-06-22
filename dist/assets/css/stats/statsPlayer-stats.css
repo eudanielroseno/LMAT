@@ -1,0 +1,6 @@
+.cf-stats-player__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 2;
+}

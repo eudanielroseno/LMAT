@@ -1,0 +1,9 @@
+.cf-matches__form-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cf-matches__form-group:first-child {
+  margin-right: 1rem;
+}

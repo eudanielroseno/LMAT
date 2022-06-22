@@ -1,0 +1,28 @@
+.cf-stats-player {
+  border-top: 0.5px solid #DFDFDF;
+  display: flex;
+  min-height: 5rem;
+}
+
+.cf-stats-player:last-child {
+  border-bottom: 0.5px solid #DFDFDF;
+}
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-stats-player {
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-stats-player {
+    align-items: center;
+    flex-direction: row;
+    padding: 0 1.25rem;
+
+  }
+}

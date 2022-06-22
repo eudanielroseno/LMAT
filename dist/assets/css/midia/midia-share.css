@@ -1,0 +1,8 @@
+.cf-midia__share {
+  align-items: center;
+  display: flex;
+}
+
+.cf-midia__share .material-icons:first-child {
+  margin-right: 1rem;
+}

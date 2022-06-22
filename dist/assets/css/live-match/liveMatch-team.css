@@ -1,0 +1,10 @@
+.cf-live-match__team {
+  padding: 0rem 0.5rem 0 1rem;
+}
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-squad__player-name {
+    padding: 0 5px 0 10px;
+  }
+}

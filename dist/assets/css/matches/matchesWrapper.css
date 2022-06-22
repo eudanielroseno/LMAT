@@ -1,0 +1,22 @@
+/* default */
+@media screen and (min-width: 0) {
+  .cf-matches-wrapper {
+    margin: 4rem auto 0 auto;
+    width: 100%;
+    max-width: 25rem;
+  }
+}
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-matches-wrapper {
+    width: 25rem;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-matches-wrapper {
+    margin: 0 auto;
+  }
+}

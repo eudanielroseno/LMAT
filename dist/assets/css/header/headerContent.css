@@ -1,0 +1,21 @@
+.cf-header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 7.5px 0;
+  position: relative;
+}
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-header-content {
+    flex-direction: column;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-header-content {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,9 @@
+.cf-link {
+  color: #039be5;
+}
+
+.cf-link:hover {
+  color: #039be5;
+  font-weight: 700;
+  text-decoration: none;
+}

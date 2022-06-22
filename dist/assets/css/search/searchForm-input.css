@@ -1,0 +1,26 @@
+.cf-search-form__input {
+  background: #ffffff;
+  border: none;
+  outline: none;
+  display: block;
+  padding: .175rem .75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  border-radius: .25rem;
+}
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-search-form__input {
+    margin-bottom: 10px;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-search-form__input {
+    margin-right: 5px;
+    margin-bottom: 0;
+  }
+}

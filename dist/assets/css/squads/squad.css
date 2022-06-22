@@ -1,0 +1,10 @@
+.cf-squad {
+  margin-bottom: 2rem;
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-squad {
+    margin-bottom: 0;
+  }
+}

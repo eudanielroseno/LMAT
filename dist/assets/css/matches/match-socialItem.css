@@ -1,0 +1,9 @@
+.cf-match__social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cf-match__social-item:first-child {
+  margin-right: 5px;
+}

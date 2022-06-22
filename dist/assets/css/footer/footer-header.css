@@ -1,0 +1,14 @@
+.cf-footer__header {
+  position: relative;
+  margin-bottom: 2.75rem;
+}
+
+.cf-footer__header::before {
+  background: #FFC107;
+  position: absolute;
+  content: '';
+  top: 2.4rem;
+  left: 0;
+  height: 5px;
+  width: 2.75rem;
+}

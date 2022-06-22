@@ -1,0 +1,11 @@
+.cf-about__contact-action {
+  border: none;
+  outline: none;
+  background: none;
+  padding-bottom: 0;
+  height: 20px;
+}
+
+.cf-about__contact-action:focus {
+  outline: none;
+}

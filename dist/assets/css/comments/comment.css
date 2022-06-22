@@ -1,0 +1,7 @@
+.cf-comment {
+  display: flex;
+  max-width: 25rem;
+  margin: 0 auto;
+  padding: 2.5rem 0 2rem 0;
+  border-bottom: 0.5px solid #DFDFDF;
+}

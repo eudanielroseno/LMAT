@@ -1,0 +1,9 @@
+.cf-match__location {
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.cf-match__location:first-child {
+  margin-right: 10px;
+}

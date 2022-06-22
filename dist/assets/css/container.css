@@ -1,0 +1,19 @@
+.cf-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-container {
+    padding: 0 0.625rem;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-container {
+    max-width: 64rem;
+    padding: 0 1.25rem;
+  }
+}

@@ -1,0 +1,21 @@
+.cf-raking-filter__group {
+  min-width: 11.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.cf-raking-filter__group:last-child {
+  justify-content: flex-start;
+  margin-top: 1rem;
+  padding-left: 0.75rem;
+}
+
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-raking-filter__group:last-child {
+    justify-content: flex-end;
+    margin-top: 0;
+    padding-left: 0;
+  }
+}

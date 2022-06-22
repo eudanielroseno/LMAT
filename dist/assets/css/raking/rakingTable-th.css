@@ -1,0 +1,24 @@
+.cf-raking-table__th {
+  border-bottom: 1px solid #dfdfdf;
+  color: #606060;
+  font-size: 10px;
+  height: 1.875rem;
+  text-align: center;
+}
+
+.cf-raking-table__th--left {
+  text-align: left;
+}
+
+@media screen and (min-width: 0) {
+  .cf-raking-table__th {
+    min-width: 2rem;
+  }
+}
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-raking-table__th {
+    min-width: 1.5625rem;
+  }
+}

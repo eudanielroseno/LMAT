@@ -1,0 +1,20 @@
+.cf-squad__player-card {
+  border-bottom: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  margin-right: 5px;
+  height: 0.875rem;
+  width: 10px;
+}
+
+.cf-squad__player-card--yerllow {
+  background: yellow;
+}
+
+.cf-squad__player-card--red {
+  background: #D32F2F;
+
+}
+
+.cf-squad__player-card--blue {
+  background: #2196f3;
+}

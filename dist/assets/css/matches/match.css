@@ -1,0 +1,17 @@
+.cf-match {
+  border: none;
+  border-bottom: 1px solid #DFDFDF;
+  border-top: 1px solid #DFDFDF;
+  padding: 5px 5px;
+  margin-bottom: 1rem;
+}
+
+.cf-match:hover {
+  cursor: pointer;
+}
+
+.cf-match--details {
+  border-top: none;
+  max-width: 47rem;
+  margin: 0 auto;
+}

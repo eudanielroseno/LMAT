@@ -1,0 +1,4 @@
+.cf-comments-form__action {
+  display: flex;
+  justify-content: flex-end;
+}

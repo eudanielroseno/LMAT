@@ -1,0 +1,11 @@
+.cf-matches__form-label {
+  color: #606060;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.cf-matches__form-label:hover {
+  cursor: pointer;
+}

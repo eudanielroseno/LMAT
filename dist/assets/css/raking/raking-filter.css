@@ -1,0 +1,20 @@
+.cf-raking-filter {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-raking-filter {
+    flex-direction: column;
+  }
+}
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-raking-filter {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

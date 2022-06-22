@@ -1,0 +1,19 @@
+.cf-stats-player__avatar {
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 0) {
+  .cf-stats-player__avatar {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-stats-player__avatar {
+    height: 2.8125rem;
+    width: 2.8125rem;
+  }
+}
