@@ -1,0 +1,9 @@
+.cf-search {
+  align-items: center;
+  background: #FFC107;
+  display: flex;
+  min-height: 4px;
+  justify-content: center;
+  position: relative;
+}
+

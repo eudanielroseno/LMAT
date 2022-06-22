@@ -1,0 +1,15 @@
+.cf-match__location-date {
+  color: #606060;
+  display: flex;
+  flex: 1;
+  font-size: 8px;
+  font-weight: normal;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
+.cf-match__location-date .material-icons {
+  color: #212529;
+  font-size: 10px;
+  width: 12px;
+}

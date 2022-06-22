@@ -1,0 +1,26 @@
+.cf-raking-table__tr {
+  cursor: pointer;
+  border-bottom: 1px solid #dfdfdf;
+  height: 3.3rem;
+}
+
+.cf-raking-table__tr--green {
+  background-color: rgba(77, 182, 172, 0.5);
+  border-color: #ffffff;
+}
+
+.cf-raking-table__tr--blue {
+  background-color: rgba(79, 195, 247, 0.4);
+  border-color: #ffffff;
+}
+
+
+.cf-raking-table__tr--orange {
+  background-color: rgba(255, 183, 77, 0.7);
+  border-color: #ffffff;
+}
+
+.cf-raking-table__tr--red {
+  background-color: rgba(229, 57, 53, 0.3);
+  border-color: #ffffff;
+}

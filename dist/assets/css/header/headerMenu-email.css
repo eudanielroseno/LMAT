@@ -1,0 +1,22 @@
+.cf-header-menu__email {
+  border-left: 1px solid #ffffff;
+  padding: 0 1.5rem;
+}
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-header-menu__email {
+    width: 0;
+    display: none;
+    visibility: hidden;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-header-menu__email {
+    width: unset;
+    display: block;
+    visibility: visible;
+  }
+}

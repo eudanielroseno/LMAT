@@ -1,0 +1,11 @@
+.cf-navigation__nav-mobile-toogle {
+  display: none;
+  right: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.cf-navigation__nav-mobile-toogle:checked~.cf-navigation__nav-mobile {
+  max-height: 0;
+}

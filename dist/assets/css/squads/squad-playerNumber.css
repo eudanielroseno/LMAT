@@ -1,0 +1,12 @@
+.cf-squad__player-number {
+  font-weight: 700;
+  line-height: 0;
+  padding: 0 5px 0 5px;
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-squad__player-name {
+    padding: 0 5px 0 10px;
+  }
+}

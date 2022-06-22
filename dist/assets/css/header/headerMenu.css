@@ -1,0 +1,20 @@
+.cf-header-menu {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-header-menu {
+    justify-content: flex-end;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-header-menu {
+    padding-right: 3.5rem;
+    justify-content: flex-start;
+  }
+}

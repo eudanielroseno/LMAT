@@ -1,0 +1,14 @@
+.cf-match__footer-details {
+  color: #606060;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  font-weight: normal;
+  margin-top: 7px;
+}
+
+.cf-match__footer-details .material-icons {
+  color: #212529;
+  font-size: 1rem;
+  width: 16px;
+}

@@ -1,0 +1,28 @@
+.cf-banner {
+  overflow: hidden;
+  position: relative;
+}
+
+.cf-banner::after {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+
+}
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-banner {
+    height: 100px;
+  }
+}
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-banner {
+    height: 180px;
+  }
+}

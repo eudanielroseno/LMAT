@@ -1,0 +1,10 @@
+.cf-footer__info {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.cf-footer__info:hover {
+  color: #fff;
+  text-decoration: none;
+}

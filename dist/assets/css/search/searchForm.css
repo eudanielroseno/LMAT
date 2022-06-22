@@ -1,0 +1,26 @@
+.cf-search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  width: 0;
+  max-height: 0;
+
+  transition: max-height .5s;
+}
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-search-form {
+    flex-direction: column;
+  }
+}
+
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-search-form {
+    flex-direction: row;
+  }
+}

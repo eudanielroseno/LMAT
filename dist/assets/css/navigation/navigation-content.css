@@ -1,0 +1,12 @@
+.cf-navigation__content {
+  position: relative;
+}
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-navigation__content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

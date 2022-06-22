@@ -1,0 +1,44 @@
+.cf-toogle {
+  width: 0;
+  position: relative;
+}
+
+
+.cf-toogle::before {
+  background: #dddddd;
+  border-radius: 10px;
+  content: '';
+  cursor: pointer;
+  height: 12px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(calc(-25% - 1px), calc(-50%));
+  width: 1.5625rem;
+}
+
+.cf-toogle::after {
+  background: #d0d0d0;
+  border-radius: 100%;
+  content: '';
+  cursor: pointer;
+  height: 1rem;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  transform: translate(-10px, calc(-50%));
+  transition: all .3s;
+  width: 1rem;
+}
+
+.cf-toogle:checked::before {
+  background: #55C57A;
+}
+
+.cf-toogle:checked::after {
+  background: #4CAF50;
+  content: '';
+  top: 50%;
+  left: 50%;
+  transform: translate(2.5px, calc(-50%));
+}

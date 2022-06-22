@@ -1,0 +1,28 @@
+.cf-about__schedule-info {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem 1rem 0.875rem;
+}
+
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-about__schedule-info {
+    width: 12.5rem;
+    border-bottom: 1px solid #E5E5E5;
+  }
+}
+
+
+/* 768px */
+@media screen and (min-width: 48rem) {
+  .cf-about__schedule-info {
+    padding: 0.5rem 1.25rem 0.5rem 0.875rem;
+    border-bottom: none;
+  }
+
+  .cf-about__schedule-info:not(:last-child) {
+    border-right: 1px solid #E5E5E5;
+  }
+}

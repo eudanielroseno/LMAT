@@ -1,0 +1,10 @@
+.cf-stats-player__stat-content {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  text-align: center;
+}
+
+.cf-stats-player__stat-content--block {
+  display: flex;
+}

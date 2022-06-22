@@ -1,0 +1,13 @@
+.cf-midia__info {
+  align-items: center;
+  display: flex;
+  font-size: 0.75rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  padding: 0 10px;
+}
+
+.cf-midia__info .material-icons {
+  font-size: 1rem;
+
+}

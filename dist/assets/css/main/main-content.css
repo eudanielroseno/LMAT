@@ -1,0 +1,22 @@
+.cf-main__content {
+  background: #ffffff;
+  flex: 1;
+  font-size: 0.875rem;
+  padding: 1.25rem 1rem 0 1rem;
+}
+
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-main__content {
+    margin-right: 0;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-main__content {
+    margin-right: 1.5rem;
+  }
+}

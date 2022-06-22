@@ -1,0 +1,19 @@
+.cf-search__icon {
+  align-items: flex-end;
+  background: #FFC107;
+  border-radius: 7px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 5px;
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 2.1875rem;
+  height: 2.5rem;
+}
+
+.cf-search__icon:hover {
+  cursor: pointer;
+}

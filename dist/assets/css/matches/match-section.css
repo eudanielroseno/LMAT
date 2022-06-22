@@ -1,0 +1,9 @@
+.cf-match__section {
+  position: relative;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.cf-match__section:not(:last-child) {
+  border-bottom: 1px solid #DFDFDF;
+}

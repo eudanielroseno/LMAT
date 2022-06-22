@@ -1,0 +1,21 @@
+.cf-match__footer {
+  color: #606060;
+  display: flex;
+  font-size: 8px;
+  font-weight: normal;
+  margin-top: 7px;
+}
+
+.cf-match__footer .material-icons {
+  color: #212529;
+  font-size: 10px;
+  width: 12px;
+}
+
+.cf-match__footer--details {
+  justify-content: flex-end;
+  font-size: 10px;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}

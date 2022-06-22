@@ -1,0 +1,12 @@
+.cf-stats-player__stat-title {
+  color: #7A7A7A;
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cf-stats-player__stat-title--cards {
+  margin-bottom: 0;
+}

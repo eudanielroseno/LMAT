@@ -1,0 +1,10 @@
+.cf-navigation__nav-link {
+  align-items: center;
+  color: #212529;
+  max-width: 6.15rem;
+}
+
+.cf-navigation__nav-link:hover {
+  color: #212529;
+  text-decoration: none;
+}

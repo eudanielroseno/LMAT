@@ -1,0 +1,6 @@
+.cf-squad__player {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}

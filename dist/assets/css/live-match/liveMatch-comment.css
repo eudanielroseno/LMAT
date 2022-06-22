@@ -1,0 +1,23 @@
+.cf-live-match__comment {
+  border-bottom: 1px solid #DFDFDF;
+  display: flex;
+  padding: 1.125rem 0.75rem;
+  margin: 0 auto;
+}
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-live-match__comment {
+    max-width: 100%;
+    flex-direction: column;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-live-match__comment {
+    flex-direction: row;
+    max-width: 34.375rem;
+  }
+}

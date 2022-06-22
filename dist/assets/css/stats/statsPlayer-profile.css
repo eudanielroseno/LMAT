@@ -1,0 +1,16 @@
+.cf-stats-player__profile {
+  display: flex;
+  flex: 1;
+  font-size: 0.75rem;
+  padding-top: 10px;
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-stats-player__profile {
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0;
+
+  }
+}

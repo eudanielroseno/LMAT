@@ -1,0 +1,17 @@
+.cf-main {
+  display: flex;
+}
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-main {
+    flex-direction: column;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-main {
+    flex-direction: row;
+  }
+}

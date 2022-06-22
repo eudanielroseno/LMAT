@@ -1,0 +1,11 @@
+.cf-squad__player-name {
+  margin-right: 0;
+  line-height: 0;
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-squad__player-name {
+    margin-right: 5px;
+  }
+}

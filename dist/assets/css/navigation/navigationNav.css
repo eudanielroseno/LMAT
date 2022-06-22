@@ -1,0 +1,27 @@
+.cf-navigation__nav {
+  flex: 1;
+}
+
+.cf-navigation__nav a {
+  text-decoration: none;
+}
+
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-navigation__nav {
+    display: none;
+    width: 0;
+  }
+}
+
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+
+  .cf-navigation__nav {
+    display: block;
+    width: unset;
+  }
+
+}

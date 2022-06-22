@@ -1,0 +1,30 @@
+.cf-stats-player__card {
+  align-items: center;
+  border: 2px solid #f3f3f3;
+  border-radius: 100%;
+  display: flex;
+  font-size: 11px;
+  flex-direction: column;
+  height: 1.5rem;
+  justify-content: center;
+  width: 1.5rem;
+}
+
+.cf-stats-player__card:not(:last-child) {
+  margin-right: 5px;
+}
+
+.cf-stats-player__card--yellow {
+  border-color: #FFC107;
+  color: #FFC107;
+}
+
+.cf-stats-player__card--blue {
+  border-color: #62A1E0;
+  color: #62A1E0;
+}
+
+.cf-stats-player__card--red {
+  border-color: #D32F2F;
+  color: #D32F2F;
+}

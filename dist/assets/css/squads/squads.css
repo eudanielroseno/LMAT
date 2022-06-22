@@ -1,0 +1,19 @@
+.cf-squads {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+/* default */
+@media screen and (min-width: 0) {
+  .cf-squads {
+    flex-direction: column;
+  }
+}
+
+/* 1024px */
+@media screen and (min-width: 64rem) {
+  .cf-squads {
+    flex-direction: row;
+  }
+}

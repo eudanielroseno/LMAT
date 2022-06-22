@@ -1,0 +1,5 @@
+.cf-about__contact-item {
+  display: flex;
+  padding: 0.75rem 0 0rem 0;
+  max-width: 12.5rem;
+}
